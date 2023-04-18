@@ -1,0 +1,300 @@
+   40  rm test1_copy/*.php
+   41  ls test1_copy
+   42  cat README.md
+   43  vi README.md
+   44  cd /root
+   45  mkdir server_lesson && cd server_lesson
+   46  git version
+   47  yum update -y && yum -y install git
+   48  git version
+   49  touch first.txt
+   50  cd linux_practice1
+   51  cd server_lesson/linux_practice1
+   52  cd /home
+   53  echo '# Hello World' > README.md
+   54  cat README.md
+   55  echo '# Server Lesson' > README.md
+   56  cat README.md
+   57  echo 'Linux Practice' >> README.md
+   58  echo '---------------' >> README.md
+   59  cat README.md
+   60  cd server_lesson
+   61  cd /root
+   62  cd server_lesson
+   63  mkdir linux_practice1 && cd linux_practice1
+   64  mkdir public && cdpublic
+   65  mkdir public && cd public
+   66  cd public
+   67  touch index.php
+   68  ls
+   69  cp index.php index_bk.php
+   70  ls
+   71  cd .
+   72  cd linux_practice1
+   73  cd ..
+   74  cp -r public tmp
+   75  ls
+   76  rm /tmp/index_bk.php
+   77  rm tmp/index_bk.php
+   78  ls /tmp
+   79  cd tmp
+   80  ls
+   81  cd ..
+   82  cd ..
+   83  touch README.md
+   84  vi README.md
+   85  mkdir linux_practice2
+   86  ls
+   87  mkdir documents
+   88  ls
+   89  mv documents linux_practice2
+   90  ls
+   91  cd linux_practice2
+   92  ls
+   93  cd documents
+   94  ls
+   95  touch gizumo{01..50}.md
+   96  ls
+   97  cd ..
+   98  mkdir trash
+   99  ls
+  100  mv gizumo{20..40}.md trash
+  101  mv documents/gizumo{20..40}.md trash
+  102  ls trash
+  103  touch .gitignore
+  104  ls
+  105  vi .gitignore
+  106  history 300
+  107  touch exec_command.log
+  108  history 300 -w exec_command.log
+  109  ls
+  110  history 300 >> exec_command.log
+  111  cat exec_comand.log
+  112  ls
+  113  cat exec_command.log
+  114  cd trash
+  115  ls
+  116   CDcd ..
+  117  cd ..
+  118  ls
+  119  vi .gitignore
+  120  ls trash
+  121  vi .gitignore
+  122  git status
+  123  cd ..
+  124  cd ..
+  125  cd server_lesson
+  126  git add *
+  127  cd root
+  128  cd /root
+  129  git add server_lesson
+  130  git commit -m '練習問題に回答しました'
+  131  git version
+  132  git init
+  133  cd server_lesson
+  134  git version
+  135  git init
+  136  ls
+  137  git status
+  138  git status
+  139  cd linux_practice2
+  140  vi .gitignore
+  141  git commit
+  142   git config --global user.email "you@example.com"
+  143   git config --global user.email "bitemo.linna@gmail.com"
+  144  git config --global user.name "bitemo"
+  145  cd ..
+  146  cd ..
+  147  git add server_lesson
+  148  git commit
+  149  git push origin master
+  150  git push master
+  151  git status
+  152  git remote add origin zhttps://github.com/bitemo/server_lesson.git
+  153  git remote -v
+  154  git push origin master
+  155  git remote add origin https://github.com/bitemo/server_lesson.git
+  156  git remote remove zhttps://github.com/bitemo/server_lesson.git
+  157  git remote remove zhttps://github.com/bitemo/server_lesson.git
+  158  git -v
+  159  git remote -v
+  160  git remote remove zhttps://github.com/bitemo/server_lesson.git
+  161  git remote rm origin
+  162  git remote -v
+  163  git remote add origin https://github.com/bitemo/server_lesson.git
+  164  git remote -v
+  165  git push origin master
+  166  git push origin master
+  167  git push origin master
+  168  git push origin master
+  169  git status
+  170  git remote -v
+  171  git push origin master
+  172  git push origin master
+  173  git push origin master
+  174  git push origin master
+  175  git push --force
+  176  git reset --mixed
+  177  git status
+  178  git branch
+  179  git -v
+  180  git branch
+  181  git remote -v
+  182  git log
+  183  cd server_lesson
+  184  cd linux_practice2
+  185  vi .gitignore
+  186  git rm -r --cached .
+  187  cd ..
+  188  cd ..
+  189  cd server_lesson
+  190  git rm -r --cached .
+  191  git rm -r --cached .
+  192  cd ...
+  193  cd ..
+  194  git rm -r --cached .
+  195  cd server_lesson
+  196  cd linux_practice2
+  197  git status
+  198  cd ..
+  199  git status
+  200  cd linux_practice2
+  201  vi README.md
+  202  vi README.md
+  203  git status
+  204  cd ..
+  205  cd ..
+  206  git add server_lesson
+  207  git commit -m 'linux practice'
+  208  git push origin master
+  209  cd sever_lesson
+  210* 
+  211  cd server_lesson
+  212  vi README.md
+  213  git add README.md
+  214  git commit -m 'fixed README.md'
+  215  git push origin master
+  216  git push origin master
+  217  cd ..
+  218  git push origin master
+  219  cd server_lesson
+  220  cd linux_practice2
+  221  ls trash
+  222  vi .gitignore
+  223  vi .gitignore
+  224  cd ..
+  225  cd ..
+  226  cd server_lesson2
+  227  cd server_lesson
+  228  cd linux_practice2
+  229  git add .
+  230  git commit -m 'fixed README.md and .gitignore'
+  231  git log
+  232  cd ..
+  233  cd ..
+  234  git push origin master
+  235  cd server_lesson
+  236  vi README.md
+  237  vi README.md
+  238  cd linux_practice2
+  239  vi .gitignore
+  240  cd ..
+  241  cd ..
+  242  git add .
+  243  git commit -m 'fixed'
+  244  git push origin master
+  245  cd server_lesson
+  246  cd linux_practice2
+  247  vi .gitignore
+  248  cd ..
+  249  cd ..
+  250  git add .
+  251  git commit -m 'fixed .gitignore'
+  252  git push origin master
+  253  git remote rm origin
+  254  git remote add origin https://github.com/bitemo/Linux_server_lesson.git
+  255  git remote -v
+  256  git add server_lesson
+  257  git commit -m 'server_lesson'
+  258  git push origin master
+  259  git log
+  260  git revert 041e7cd32cadfd19d0d281fdcafe5ee02d9e2a84
+  261  & git revert 041e7cd32cadfd19d0d281fdcafe5ee02d9e2a84
+  262  git revert 041e7c
+  263  git log
+  264  git remote rm origin
+  265  git remote add origin https://github.com/bitemo/server_lesson.git
+  266  git remote -v
+  267  git remote rm origin
+  268  cd server_lesson
+  269  git add .
+  270  git remote add origin https://github.com/bitemo/server_lesson.git
+  271  git remote -v
+  272  git add .
+  273  git status
+  274  git add --all <pathspec>
+  275  git add .
+  276  git remote rm origin
+  277  git remote add origin https://github.com/bitemo/server_lesson_.git
+  278  git remote -v
+  279  git add .
+  280  vi README.md
+  281  git add .
+  282  git add --ignore-removal <pathspec>
+  283  git status
+  284  git add linux_practice2
+  285  ls
+  286  cd ..
+  287  rm server_lesson
+  288  rm -r server_lesson
+  289  y
+  290  cd /root
+  291  mkdir server_lesson && cd server_lesson
+  292  ls
+  293  rm -r server_lesson
+  294  y
+  295  ls
+  296  mkdir server_lesson && cd server_lesson
+  297  git version
+  298  git init
+  299  touch first.txt
+  300  mkdir linux_practice1
+  301  cd linux_practice1
+  302  mkdir public
+  303  cd public
+  304  touch index.php
+  305  ls
+  306  cp index.php index_bk.php
+  307  cd ..
+  308  cp -r public tmp
+  309  ls
+  310  cd tmp
+  311  ls
+  312  rm index_bk.php
+  313  ls
+  314  cd ..
+  315  cd ..
+  316  touch README.md
+  317  vi README.md
+  318  mkdir linux_practice2
+  319  cd linux_practice2
+  320  mkdirv documents && cd documents
+  321  mkdir documents && cd documents
+  322  touch gizumo{01..50}.md
+  323  ls
+  324  cd ..
+  325  mkdir trash
+  326  cd documents
+  327  mv gizumo{20..40}.md trash
+  328  mv gizumo{20..40}.md linux_practice2/trash
+  329  ls
+  330  cd ..
+  331  mv documents/gizumo{20..40}.md trash
+  332  ls
+  333  cd trash
+  334  ls
+  335  cd ..
+  336  touch .gitignore
+  337  vi .gitignore
+  338  touch exec_command.log
+  339  history 300 >> exec_command.log
